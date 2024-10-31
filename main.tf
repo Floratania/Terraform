@@ -2,7 +2,6 @@ provider "aws" {
   region = "eu-west-3" 
   access_key = ""
 
-  secret_key = ""
 }
 
 resource "aws_instance" "frontend_instance" {
